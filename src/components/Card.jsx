@@ -36,7 +36,7 @@ function Card () {
             className='p-4 bg-slate-300 font-semibold rounded-md m-2'
             type='number'
             onChange={e => setPurchasePrice(e.target.value)}
-            placeholder='$0'
+            placeholder='Purchase Price'
             id='Purchase'
           />
 
@@ -44,7 +44,7 @@ function Card () {
             className='p-4 bg-slate-300 font-semibold rounded-md m-2'
             type='number'
             onChange={e => setDownPayment(e.target.value)}
-            placeholder='$0'
+            placeholder='DownPayment'
             id='DownPayment'
           />
 
@@ -52,7 +52,7 @@ function Card () {
             className='p-4 bg-slate-300 font-semibold rounded-md m-2'
             type='number'
             onChange={e => setLoanTerm(e.target.value)}
-            placeholder='0 Years'
+            placeholder='Loan Term'
             id='LoanTerm'
           />
 
@@ -60,7 +60,7 @@ function Card () {
             className='p-4 bg-slate-300 font-semibold rounded-md m-2'
             type='number'
             onChange={e => setInterestRate(e.target.value)}
-            placeholder='0%'
+            placeholder='Intrest Rate'
             id='Rate'
           />
 
